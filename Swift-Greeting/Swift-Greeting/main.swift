@@ -12,8 +12,8 @@ let person: String = "Karen"
 let greeting: String = "Hello"
 
 
-func greet(name: String, greeting: String) -> String {
+func greet(person name: String, greeting: String) -> String {
     return greeting + " " + name
 }
 
-print(greet(name: person, greeting: greeting))
+print(greet(person: person, greeting: greeting))
